@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+<title>Ivanna CV</title>
+</head>
+<body>
+    <!-- Comments: Ctrl + /(tile) -->
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="avatar.jpeg" width="200" alt="there is my photo">
+            </td>
+            <td>
+                <h1>Ivanna Chebotar</h1>
+                <p><em>I'm just a girl with a full puck of dreams</em></p>
+                <p>I like animals and my bf. <strong>Well, I said the same thing twice</strong></p>
+                <span id="age"></span>
+            </td>
+        </tr>
+    </table>
+
+    <hr size="1" color="red" noshade />
+
+    <h2>My social media</h2>
+    <ul type="square">
+        <li><a href="https://instagram.com/rtbchiv" target="_blank">Instagram</a></li>
+        <li><a href="https://t.me/rtbchiv" target="_blank">Telegram</a></li>
+    </ul>
+
+    <hr size="1" color="red" noshade />
+
+    <h2>My hobby</h2>
+    <ol type="I">
+        <li>Motocross</li>
+        <li>Copywriting</li>
+        <li>Art</li>
+    </ol>
+
+    <hr size="1" color="red" noshade />
+
+    <h2>Experience</h2>
+    <table>
+        <thead>
+            <th>Project</th>
+            <th> Job Title</th>
+            <th>Year</th>
+        </thead>
+        <tbody>
+            <td>Public Catering</td>
+            <td>Barista</td>
+            <td>2022-2023</td>
+        </tr>
+        <tr>
+            <td>Mithraeum</td>
+            <td>Copywriter</td>
+            <td>2023-now</td>
+        </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    
+    <hr size="1" color="red" noshade />
+
+    <h2>My works</h2>
+    <a href="docs.html">See all</a>
+
+    <hr size="1" color="red" noshade />
+
+    <h2>Contact me</h2>
+
+    <form action="/">
+        <label for="name">Your name:</label>
+        <input type="text" id="name"
+        placeholder="Write your name...">
+
+    <br>
+
+        <label for="email">Your email:</label>
+        <input type="text" id="email"
+        placeholder="Write your email...">
+
+        <br>
+
+        <label for="text">Your message:</label>
+        <br>
+        <textarea name="Write your message..." id="text" cols="20" rows="10"></textarea>
+
+        <br>
+
+        <input type="submit" value="Send nudes!">
+
+    </form>
+
+    <script>
+        const ageBlock = document.getElementById("age");
+        const ageResult = prompt("Hi, can u write your age?");
+        ageBlock.innerHTML = `Age: <i>${ageResult}<i/>`;
+    </script>
+</body>
+</html>
+
+
+
